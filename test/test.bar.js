@@ -19,6 +19,14 @@ describe("Bar", function() { //start
       });
     });
 
+  describe("exponentOf", function() {
+
+        it("multiplies a number by itself as many times as the exponent", function() {
+          var exponentOf5 = bar.exponentOf(5);
+          expect( exponentOf5(4) ).eq(Math.pow(4,5));
+        });
+      });
+
 
 
 }); //end 
