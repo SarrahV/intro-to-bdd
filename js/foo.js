@@ -18,7 +18,7 @@ window.Foo = (function() {
 
       hasValue: function(array, value){
         return _.contains(array, value, [0]);
-      },
+      }
 
   };
 
