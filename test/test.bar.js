@@ -41,6 +41,13 @@ describe("Bar", function() { //start
       });
     });
 
+  describe("decipher", function() {
+
+      it("takes a ciphered string and returns a deciphered string", function() {
+        expect( bar.decipher("ÌÉÐÐÓ") ).eq("hello");
+      });
+    });
+
 
 
 }); //end 
