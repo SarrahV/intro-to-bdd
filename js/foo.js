@@ -20,11 +20,12 @@ window.Foo = (function() {
         return _.contains(array, value, [0]);
       },
 
-      greet: function(name){
-        return "Hello," + name + "!";
+  };
+
+    Foo.greet =  function(name){
+        return "Hello, " + name + "!";
       }
 
-  };
 
 
   return Foo;
