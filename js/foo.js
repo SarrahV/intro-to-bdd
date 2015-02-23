@@ -16,7 +16,13 @@ window.Foo = (function() {
         return _.sortBy(myArray);
       },
 
-      hasValue: function()
+      hasValue: function(array, value){
+        return _.contains(array, value, [0]);
+      },
+
+      greet: function(name){
+        return "Hello," + name + "!";
+      }
 
   };
 
