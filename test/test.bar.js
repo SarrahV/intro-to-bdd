@@ -32,8 +32,13 @@ describe("Bar", function() { //start
       it("splits a string into an array", function() {
         expect( bar.reverseString("string") ).eq("gnirts");
       });
+    });
 
+  describe("cipher", function() {
 
+      it("takes a string and returns a character", function() {
+        expect( bar.cipher("hello") ).eq("ÌÉÐÐÓ");
+      });
     });
 
 
