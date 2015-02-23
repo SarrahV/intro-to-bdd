@@ -27,6 +27,21 @@ describe("Bar", function() { //start
         });
       });
 
+  describe("reverseString", function() {
+
+      it("splits a string into an array", function() {
+        expect( bar.reverseString("string") ).eq("gnirts");
+      });
+
+
+    });
+
 
 
 }); //end 
+
+
+
+
+
+
